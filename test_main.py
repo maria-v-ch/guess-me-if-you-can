@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import patch, mock_open, call
-from datetime import datetime  # Add this import
+from datetime import datetime
 from main import (
     confirm_magic_number_is_more_than_guess,
     confirm_magic_number_is_less_than_guess,
@@ -11,7 +11,7 @@ from main import (
     save_guess,
     save_win,
     save_count,
-    LOG_FILE  # Add this import
+    LOG_FILE
 )
 
 
